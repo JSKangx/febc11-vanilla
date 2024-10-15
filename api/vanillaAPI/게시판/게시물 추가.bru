@@ -1,0 +1,21 @@
+meta {
+  name: 게시물 추가
+  type: http
+  seq: 2
+}
+
+post {
+  url: https://11.fesp.shop/posts
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "type": "test",
+    "title": "Bruno Mars 내한 공연",
+    "content": "2024년 10월 19일(토) 19:00, 잠실올림픽주경기장",
+    "image": "sample-bugatti.png",
+    "tag": "Bruno_Mars"
+  }
+}
